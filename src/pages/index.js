@@ -1,14 +1,14 @@
 import React from "react"
-import Header from "../components/Header"
-import Footer from "../components/Footer"
+import Layout from "../components/Layout"
 
 const Index = ()=>{
     return(
-        <div>
-            <Header />
-            <p>Hello, I am a computer science teacher in Omaha, Nebraska</p>
-            <Footer />
-        </div>
+        
+            <Layout>
+                <p>Hello, I am a computer science teacher in Omaha, Nebraska</p>
+            </Layout>
+            
+        
     )
 }
 
