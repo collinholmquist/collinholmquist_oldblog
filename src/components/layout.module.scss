@@ -2,4 +2,12 @@
     margin: 0 auto;
     max-width: 750px;
     padding: 1rem; 
+
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh; //container height set to screen height
+}
+
+.content {
+    flex-grow: 1; //allow container to grow as needed
 }
