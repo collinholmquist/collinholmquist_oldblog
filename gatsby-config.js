@@ -12,7 +12,8 @@ module.exports = {
   },
 
   /* Your site config here */
-  plugins: ['gatsby-plugin-sass',
+  plugins: ['gatsby-plugin-react-helmet',
+    'gatsby-plugin-sass',
     {
       resolve: 'gatsby-source-filesystem',
       options: {
@@ -20,6 +21,22 @@ module.exports = {
         path: `${__dirname}/src/`
       }
     },
-    'gatsby-transformer-remark'
+    'gatsby-plugin-sharp',
+    {
+      resolve: 'gatsby-transformer-remark',
+      options: {
+        plugins: [
+          'gatsby-remark-relative-images',
+          {
+            resolve: 'gatsby-remark-images',
+            options: {
+                maxWidth: 750,
+                linkImagesToOriginal: false,
+            }
+          }
+        ]
+      }
+    }
+    
 ],
 }
