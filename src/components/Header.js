@@ -4,6 +4,8 @@ import headerStyles from './header.module.scss'
 
 const Header = ()=> {
 
+    
+
     const data = useStaticQuery(graphql`
         query {
             site {
@@ -17,6 +19,7 @@ const Header = ()=> {
     return (
 
         <div>
+
             <header className = {headerStyles.header}>
                 <h1>
                     <Link className = {headerStyles.title} 
@@ -50,6 +53,7 @@ const Header = ()=> {
                         
                     </ul>
                 </nav>
+
             </header>
         </div>
     )
