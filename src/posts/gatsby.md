@@ -1,6 +1,6 @@
 ---
 title: "Why Gatsby?"
-date: "2020-05-08"
+date: "May 8th, 2020"
 ---
 
 I wanted to make a blog. 

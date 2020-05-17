@@ -15,6 +15,23 @@ module.exports = {
   plugins: ['gatsby-plugin-react-helmet',
     'gatsby-plugin-sass',
     {
+      resolve: `gatsby-plugin-prefetch-google-fonts`,
+      options: {
+        fonts: [
+          {
+            family: `Droid Sans`
+          },
+          {
+            family: `Montserrat`,
+            variants: [`800`]
+          },
+          {
+            family: `Muli`
+          }
+        ]
+      }
+    },
+    {
       resolve: 'gatsby-source-filesystem',
       options: {
         name: 'src',

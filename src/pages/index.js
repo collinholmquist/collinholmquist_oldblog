@@ -1,13 +1,14 @@
 import React from "react"
 import Layout from "../components/Layout"
 import Head from '../components/head'
+import Bio from '../components/Bio'
 
 const Index = ()=>{
     return(
         
             <Layout>
             <Head title = "Home"/>
-                <p>Hello, I am a computer science teacher in Omaha, Nebraska</p>
+                <Bio />
             </Layout>
             
         

@@ -1,6 +1,6 @@
 ---
 title: "I need some introductions"
-date: "2020-05-09"
+date: "May 9th, 2020"
 ---
 
 I suppose that a short introduction is in order. 
