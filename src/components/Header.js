@@ -1,6 +1,6 @@
 import React from 'react'
 import { Link, graphql ,useStaticQuery} from 'gatsby'
-import headerStyles from './header.module.scss'
+
 
 const Header = ()=> {
 
@@ -17,33 +17,56 @@ const Header = ()=> {
     return (
 
         <div>
-            <header className = {headerStyles.header}>
+            <header 
+                style = {{
+                    padding: '1rem 0 3rem'
+                }}
+            >
                 <h1>
-                    <Link className = {headerStyles.title} 
-                            to="/">
+                    
                         {data.site.siteMetadata.title}
-                    </Link>
+                    
                 </h1>
                 <nav>
-                    <ul className = {headerStyles.navList}>
-                        <li>
-                            <Link className = {headerStyles.navItem} 
+                    <ul style = {{
+                        display: `flex`, 
+                        listStyleType: `none`,
+                        
+                        }}>
+                        <li
+                            style = {{
+                                
+                                marginRight: `1.3rem`
+                            }}
+                        >
+                            <Link style = {{
+                                textDecoration: 'none'
+                            }}
                                   to="/"
-                                  activeClassName = {headerStyles.activeNavItem}>
+                                  
+                                 >
                                 Home
                             </Link>
                         </li>
-                        <li>
-                            <Link className = {headerStyles.navItem} 
+                        <li
+                        style = {{
+                                
+                            marginRight: `1.3rem`
+                        }}>
+                            <Link 
                                   to="/about"
-                                  activeClassName = {headerStyles.activeNavItem}>
+                                  >
                                 About
                             </Link>
                         </li>
-                        <li>
-                            <Link className = {headerStyles.navItem} 
+                        <li
+                        style = {{
+                                
+                            marginRight: `1.3rem`
+                        }}>
+                            <Link  
                                   to="/blog"
-                                  activeClassName = {headerStyles.activeNavItem}>
+                                  >
                                 Blog
                             </Link>
                         </li>
