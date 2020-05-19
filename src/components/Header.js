@@ -1,6 +1,6 @@
 import React from 'react'
 import { Link, graphql ,useStaticQuery} from 'gatsby'
-
+import {  scale} from "../utils/typography"
 
 const Header = ()=> {
 
@@ -19,13 +19,14 @@ const Header = ()=> {
         <div>
             <header 
                 style = {{
-                    padding: '1rem 0 3rem'
-                }}
-            >
-                <h1>
-                    
-                        {data.site.siteMetadata.title}
-                    
+                    marginTop: 0
+                }}>
+                <h1
+                 style = {{
+                    ...scale(1.5)
+                 }}
+                >
+                    {data.site.siteMetadata.title}  
                 </h1>
                 <nav>
                     <ul style = {{
@@ -33,37 +34,21 @@ const Header = ()=> {
                         listStyleType: `none`,
                         
                         }}>
-                        <li
-                            style = {{
-                                
-                                marginRight: `1.3rem`
-                            }}
-                        >
-                            <Link style = {{
-                                textDecoration: 'none'
-                            }}
-                                  to="/"
-                                  
-                                 >
+                        <li style = {{ marginRight: `1.3rem`}}>
+                            <Link 
+                                  to="/">
                                 Home
                             </Link>
                         </li>
                         <li
-                        style = {{
-                                
-                            marginRight: `1.3rem`
-                        }}>
+                        style = {{ marginRight: `1.3rem`}}>
                             <Link 
-                                  to="/about"
-                                  >
+                                  to="/about">
                                 About
                             </Link>
                         </li>
                         <li
-                        style = {{
-                                
-                            marginRight: `1.3rem`
-                        }}>
+                        style = {{marginRight: `1.3rem`}}>
                             <Link  
                                   to="/blog"
                                   >
