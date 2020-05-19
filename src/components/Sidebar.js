@@ -1,7 +1,7 @@
 import React from 'react' 
 import ProfilePic from '../assets/Headshot.jpg'
 
-const Bio = ()=> {
+const Sidebar = ()=> {
 
     return (
         <div style = {{
@@ -30,4 +30,4 @@ const Bio = ()=> {
     )
 }
 
-export default Bio
+export default Sidebar
