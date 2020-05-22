@@ -1,12 +1,29 @@
 
 .container {
    
-
+    background-color: lightgreen;
     display: flex;
     flex-direction: column;
     min-height: 100vh; //container height set to screen height
+    max-width: calc(66.6% - .625rem);
+    margin-left: auto;
+    margin-right: auto;
+    
 }
 
 .content {
     flex-grow: 1; //allow container to grow as needed
+}
+
+.outer-container {
+
+    display: flex;
+    flex-direction: row;
+    margin: auto;
+}
+
+.sidebar {
+    
+    background-color: lightpink;
+    max-width:  calc(25% - 1.25rem);
 }

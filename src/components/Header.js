@@ -43,8 +43,8 @@ const Header = ()=> {
                         <li
                         style = {{ marginRight: `1.3rem`}}>
                             <Link 
-                                  to="/about">
-                                About
+                                  to="/projects">
+                                Projects
                             </Link>
                         </li>
                         <li

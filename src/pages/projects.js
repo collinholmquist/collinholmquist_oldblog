@@ -3,14 +3,14 @@ import Layout from '../components/Layout'
 import Head from '../components/head'
 
 
-const About = () => {
+const Projects = () => {
 
     return (
         <Layout>
-        <Head title = "About" />
-             <h1>About Page</h1>
+        <Head title = "Projects" />
+             <h1>Programming Projects I've Done</h1>
         </Layout>   
     )
 }
 
-export default About
+export default Projects
