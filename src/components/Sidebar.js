@@ -1,35 +1,28 @@
 import React from 'react' 
 import ProfilePic from '../assets/Headshot.jpg'
-import { rhythm } from '../utils/typography'
+import sidebarStyles from './sidebar.module.scss'
+import Nav from './Nav'
+import Footer from './Footer'
 
 const Sidebar = ()=> {
 
     return (
-        <div style = {{
-            display: 'flex',
-            flexDirection: 'column',
-            backgroundColor: `purple`,
-            marginTop: rhythm(1),
-            paddingTop: rhythm(1)
-        }}>
+        <div className = {sidebarStyles.container}>
           
             <img src ={ProfilePic}
                  alt = 'Collin Holmquist'
-                 style = {{
-                     height: '5rem',
-                     width: '4.75rem',
-                     borderRadius: '50%',
-                     marginBottom: 0,
-                     marginRight: 10
-
-                 }} />
+                 className = {sidebarStyles.profilePic} />
             
-            <h1>Collin Holmquist</h1>
+            <h3>Collin Holmquist</h3>
 
+            
             <p>
                 Computer Science Teacher at Omaha Central. Teaching Java, JavaScript and Python. 
             </p>
         
+            <Nav />
+
+            <Footer />
             
         </div>
     )
