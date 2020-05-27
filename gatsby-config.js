@@ -8,7 +8,10 @@ module.exports = {
 
   siteMetadata: {
     title: 'Holmquist Blog',
-    author: 'Collin Holmquist'
+    author: 'Collin Holmquist',
+    twitter: 'www.twitter.com/collinholmquist',
+    github: 'www.github.com/collinholmquist',
+    gmail: 'collinholmquist@gmail.com',
   },
 
   /* Your site config here */

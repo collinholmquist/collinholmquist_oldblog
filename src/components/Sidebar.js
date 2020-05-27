@@ -3,6 +3,7 @@ import ProfilePic from '../assets/Headshot.jpg'
 import sidebarStyles from './sidebar.module.scss'
 import Nav from './Nav'
 import Footer from './Footer'
+import Social from './Social'
 
 const Sidebar = ()=> {
 
@@ -11,7 +12,8 @@ const Sidebar = ()=> {
           
             <img src ={ProfilePic}
                  alt = 'Collin Holmquist'
-                 className = {sidebarStyles.profilePic} />
+                 className = {sidebarStyles.profilePic} 
+            />
             
             <h3>Collin Holmquist</h3>
 
@@ -21,7 +23,7 @@ const Sidebar = ()=> {
             </p>
         
             <Nav />
-
+            <Social />
             <Footer />
             
         </div>
