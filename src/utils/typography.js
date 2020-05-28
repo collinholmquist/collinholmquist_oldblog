@@ -1,7 +1,7 @@
 import Typography from "typography"
-import wordpress2016 from "typography-theme-wordpress-2016"
+//import wordpress2016 from "typography-theme-wordpress-2016"
 
-wordpress2016.overrideThemeStyles = () => ({
+/* Typography.overrideThemeStyles = () => ({
     
     'a' : {
         textDecoration: `none`,
@@ -11,9 +11,18 @@ wordpress2016.overrideThemeStyles = () => ({
     'h3' : {
         fontFamily: 'Montserrat'
     }
-})
+}) */
 
-const typography = new Typography(wordpress2016)
+const typography = new Typography({
+    baseFontSize: "18px",
+    baseLineHeight: 1.5,
+    headerFontFamily: [
+        "Work Sans",
+        "Roboto",
+        "sans-serif"
+    ],
+    bodyFontFamily: ["Work Sans", "sans-serif"]
+})
 
 export const { scale, rhythm, options} = typography
 export default typography

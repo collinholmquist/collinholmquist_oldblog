@@ -19,7 +19,7 @@ const Header = ()=> {
         <div>
             <header 
                 style = {{
-                    marginTop: 0
+                    marginTop: '1rem'
                 }}>
                 <h1
                  style = {{

@@ -1,5 +1,5 @@
 import React from 'react' 
-import ProfilePic from '../assets/Headshot.jpg'
+import ProfilePic from '../assets/HolmquistHeadshot.jpg'
 import sidebarStyles from './sidebar.module.scss'
 import Nav from './Nav'
 import Footer from './Footer'
@@ -10,14 +10,13 @@ const Sidebar = ()=> {
     return (
         <div className = {sidebarStyles.container}>
           
-            <img src ={ProfilePic}
-                 alt = 'Collin Holmquist'
-                 className = {sidebarStyles.profilePic} 
-            />
-            
-            <h3>Collin Holmquist</h3>
-
-            
+            <div className = {sidebarStyles.nameImgContainer}>
+                <img src ={ProfilePic}
+                    alt = 'Collin Holmquist'
+                    className = {sidebarStyles.profilePic} 
+                />
+                <h1 className = {sidebarStyles.name}>Collin Holmquist</h1>
+            </div>
             <p>
                 Computer Science Teacher at Omaha Central. Teaching Java, JavaScript and Python. 
             </p>
