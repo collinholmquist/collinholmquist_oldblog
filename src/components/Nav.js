@@ -11,10 +11,11 @@ const Nav = () => {
                         display: `flex`, 
                         flexDirection: `column`,
                         listStyleType: `none`,
-                        
                         }}>
                         <li style = {{ marginRight: `1.3rem`}}>
                             <Link 
+                                  style = {{textDecoration: 'none',
+                                            color: 'white'}}
                                   to="/">
                                 Home
                             </Link>
@@ -22,19 +23,13 @@ const Nav = () => {
                         <li
                         style = {{ marginRight: `1.3rem`}}>
                             <Link 
+                                  style = {{textDecoration: 'none',
+                                  color: 'white'}}
                                   to="/projects">
                                 Projects
                             </Link>
                         </li>
-                        <li
-                        style = {{marginRight: `1.3rem`}}>
-                            <Link  
-                                  to="/blog"
-                                  >
-                                Blog
-                            </Link>
-                        </li>
-                        
+
                     </ul>
                 </nav>
         </div>

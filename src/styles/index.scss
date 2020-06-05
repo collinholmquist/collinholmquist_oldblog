@@ -200,11 +200,18 @@ html {
   *:after {
     box-sizing: inherit;
   }
+
+
+
+
+
+
   body {
     color: #ffffff;
     background-color: #272727;
-    font-family: "assistant", sans-serif;
+    font-family: "Droid Sans", sans-serif;
     font-weight: normal;
+    font-size: .85rem;
     word-wrap: break-word;
     font-kerning: normal;
     -moz-font-feature-settings: "kern", "liga", "clig", "calt";
@@ -265,7 +272,7 @@ html {
     padding-top: 0;
     margin-bottom: 1.45rem;
     color: inherit;
-    font-family: 'Droid Sans', sans-serif;
+    font-family: 'Muli', sans-serif;
     font-weight: bold;
     text-rendering: optimizeLegibility;
     font-size: 1.38316rem;
@@ -281,7 +288,7 @@ html {
     padding-top: 0;
     margin-bottom: 1.45rem;
     color: inherit;
-    font-family: 'Droid Sans', sans-serif;
+    font-family: 'Muli', sans-serif;
     font-weight: bold;
     text-rendering: optimizeLegibility;
     font-size: 1rem;
@@ -297,7 +304,7 @@ html {
     padding-top: 0;
     margin-bottom: 1.45rem;
     color: inherit;
-    font-family: 'Droid Sans', sans-serif;
+    font-family: 'Muli', sans-serif;
     font-weight: bold;
     text-rendering: optimizeLegibility;
     font-size: 0.85028rem;
@@ -313,7 +320,7 @@ html {
     padding-top: 0;
     margin-bottom: 1.45rem;
     color: inherit;
-    font-family: 'Droid Sans', sans-serif;
+    font-family: 'Muli', sans-serif;
     font-weight: bold;
     text-rendering: optimizeLegibility;
     font-size: 0.78405rem;
@@ -382,6 +389,8 @@ html {
     padding-right: 0;
     padding-top: 0;
     margin-bottom: 1.45rem;
+    font-size: 0.85rem;
+    font-family: "Droid Sans"
   }
   figure {
     margin-left: 0;
