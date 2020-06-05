@@ -1,6 +1,6 @@
 import React from 'react'
 import { graphql ,useStaticQuery} from 'gatsby'
-import {  scale} from "../utils/typography"
+
 
 const Header = ()=> {
 
@@ -21,11 +21,7 @@ const Header = ()=> {
                 style = {{
                     marginTop: '1rem'
                 }}>
-                <h1
-                 style = {{
-                    ...scale(1.5)
-                 }}
-                >
+                <h1>
                     {data.site.siteMetadata.title}  
                 </h1>
                 

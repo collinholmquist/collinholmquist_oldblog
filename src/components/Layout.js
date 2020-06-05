@@ -2,6 +2,7 @@ import React from 'react'
 import Header from './Header'
 import layoutStyles from './layout.module.scss'
 import Sidebar from './Sidebar'
+import '../styles/index.scss'
 
 const Layout = (props) =>{
     return (
