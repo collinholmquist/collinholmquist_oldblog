@@ -23,15 +23,15 @@ module.exports = {
       options: {
         fonts: [
           {
-            family: `Droid Sans`
+            family: `Merriweather`,
+            variants: [`400`]
           },
           {
             family: `Montserrat`,
             variants: [`800`]
           },
           {
-            family: `Muli`,
-            variants: [`500`]
+            family: `Open Sans`
           }
         ]
       }

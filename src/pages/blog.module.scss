@@ -7,7 +7,7 @@
     margin: 1rem 0;
 
     a { 
-        color: #ffffff;
+        color: rgb(29, 27, 31);
         box-shadow: none;
         text-decoration: none;
         display: block;
@@ -17,7 +17,9 @@
 
     a:hover{
         
-        background: #555555;
+        //background: #dddddd;
+        //box-shadow: 0 8px 6px -6px rgba(151,0,204,.87);
+        border: 2px solid black;
     }
 
     h2 {

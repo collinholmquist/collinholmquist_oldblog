@@ -15,7 +15,7 @@ const Nav = () => {
                         <li style = {{ marginRight: `1.3rem`}}>
                             <Link 
                                   style = {{textDecoration: 'none',
-                                            color: 'white'}}
+                                            color: `rgb(29, 27, 31)`}}
                                   to="/">
                                 HOME
                             </Link>
@@ -24,7 +24,7 @@ const Nav = () => {
                         style = {{ marginRight: `1.3rem`}}>
                             <Link 
                                   style = {{textDecoration: 'none',
-                                  color: 'white'}}
+                                  color: `rgb(29, 27, 31)`}}
                                   to="/projects">
                                 PROJECTS
                             </Link>
