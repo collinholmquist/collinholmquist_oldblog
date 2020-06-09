@@ -5,15 +5,17 @@
 }
 
 .profile-pic {
-    height: 5rem;
-    width: 4.75rem;
-    border-radius: 10%;
+    height: 3rem;
+    width: 5rem;
+    border-radius: 50%;
+    padding: 1.4rem 0;
     margin-bottom: 0;
     margin-right: 10;
 }
 
 .name-img-container {
     margin: 0.5rem;
+    padding: 0.5rem 0.5rem 1.5rem 0.5rem;
     height: 5rem;
     display: flex;
     flex-direction: row;
@@ -21,7 +23,7 @@
 }
 
 .name {
-    padding: 0rem 1rem;
+    padding: 1rem 1rem;
 }
 
 

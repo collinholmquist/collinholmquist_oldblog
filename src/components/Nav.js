@@ -17,7 +17,7 @@ const Nav = () => {
                                   style = {{textDecoration: 'none',
                                             color: 'white'}}
                                   to="/">
-                                Home
+                                HOME
                             </Link>
                         </li>
                         <li
@@ -26,7 +26,7 @@ const Nav = () => {
                                   style = {{textDecoration: 'none',
                                   color: 'white'}}
                                   to="/projects">
-                                Projects
+                                PROJECTS
                             </Link>
                         </li>
 

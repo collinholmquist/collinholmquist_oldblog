@@ -15,10 +15,10 @@ const Sidebar = ()=> {
                     alt = 'Collin Holmquist'
                     className = {sidebarStyles.profilePic} 
                 />
-                <h1 className = {sidebarStyles.name}>Collin Holmquist</h1>
+                <h2 className = {sidebarStyles.name}>collin holmquist</h2>
             </div>
             <p>
-                Computer Science Teacher at Omaha Central. Teaching Java, JavaScript and Python. 
+                comp sci teacher @ omaha central. java/javascript/python
             </p>
         
             <Nav />

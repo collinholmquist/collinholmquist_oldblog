@@ -7,8 +7,8 @@
 module.exports = {
 
   siteMetadata: {
-    title: 'Holmquist Blog',
-    author: 'Collin Holmquist',
+    title: 'progammatic ponderings',
+    author: 'collin holmquist',
     twitter: 'www.twitter.com/collinholmquist',
     github: 'www.github.com/collinholmquist',
     gmail: 'collinholmquist@gmail.com',
@@ -30,7 +30,8 @@ module.exports = {
             variants: [`800`]
           },
           {
-            family: `Muli`
+            family: `Muli`,
+            variants: [`500`]
           }
         ]
       }

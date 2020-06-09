@@ -203,15 +203,15 @@ html {
 
 
 
-
+//Important Stuff starts here 
 
 
   body {
     color: #ffffff;
-    background-color: #272727;
+    background-color: #1F1B24;
     font-family: "Droid Sans", sans-serif;
     font-weight: normal;
-    font-size: .85rem;
+    font-size: .95rem;
     word-wrap: break-word;
     font-kerning: normal;
     -moz-font-feature-settings: "kern", "liga", "clig", "calt";
@@ -273,7 +273,7 @@ html {
     margin-bottom: 1.45rem;
     color: inherit;
     font-family: 'Muli', sans-serif;
-    font-weight: bold;
+    font-weight: 600;
     text-rendering: optimizeLegibility;
     font-size: 1.38316rem;
     line-height: 1.1;
@@ -288,7 +288,7 @@ html {
     padding-top: 0;
     margin-bottom: 1.45rem;
     color: inherit;
-    font-family: 'Muli', sans-serif;
+    font-family: 'Muli600', sans-serif;
     font-weight: bold;
     text-rendering: optimizeLegibility;
     font-size: 1rem;

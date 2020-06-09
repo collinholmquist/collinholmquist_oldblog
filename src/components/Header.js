@@ -19,7 +19,7 @@ const Header = ()=> {
         <div>
             <header 
                 style = {{
-                    //marginTop: '3rem'
+                    paddingBottom: '2rem'
                 }}>
                 <h1>
                     {data.site.siteMetadata.title}  
