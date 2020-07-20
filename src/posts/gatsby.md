@@ -13,5 +13,7 @@ For myself, I rarely give msyelf time to reflect.  Albeit, the life of teacher s
 
 ***
 
-A second reason for my blog is so that I could learn how to create a blog via Gatsby.
-  ✅ 
+## Some personal goals
+
+
+
