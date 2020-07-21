@@ -17,10 +17,7 @@ const Header = ()=> {
     return (
 
         <div>
-            <header 
-                style = {{
-                    paddingBottom: '2rem'
-                }}>
+            <header>
                 <h1>
                     {data.site.siteMetadata.title}  
                 </h1>
