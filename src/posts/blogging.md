@@ -21,5 +21,7 @@ I rarely give myself time to reflect.  Albeit, the life of teacher seldom afford
 
 #:three: This blog is a great jumping off point to dive deeper into specific concepts.  My goal is to have a mixture of posts about teaching & programming.  I feel a greater level of accoutability in putting something out on the internet for all to see.  There is a duty to ensure that I understand it to be able to communicate that with others.  That doesn't mean I won't have unanswered questions or still be unclear about some details, but I will feel a heightened level of responsibility to ensure my content is well thought-out.  
 
+#:four: I have a space reserved for links to my projects ... which don't exist currently.  But they will! I have many ideas.  
+
 So here it goes! #:raised_hands:
 
