@@ -1,0 +1,46 @@
+
+.main-container {
+   
+    //background-color: lightgreen;
+    display: flex;
+    flex-direction: column;
+    
+    max-width: calc(66.6% - .625rem);
+    padding-left: 2.5rem;
+    padding-right: 2.5rem;
+    padding-top: 1rem;
+    margin: 1rem;
+    //margin-right: 0;
+    //margin-top: 1rem;
+    //border: 2px solid white;
+
+}
+
+.content {
+    flex-grow: 1; //allow container to grow as needed
+}
+
+.outer-container {
+
+    display: block;
+    box-sizing: content-box;
+    //flex-direction: row;
+    margin-left: auto;
+    margin-right: auto;
+    max-width: 66.6rem;
+    margin-top: 2rem;
+    min-height: 100vh; //container height set to screen height
+    //border: 2px solid black;
+}
+
+.sidebar {
+    
+    //background-color: lightpink;
+    max-width:  calc(33% - 1.25rem);
+    float: left;
+    margin-right: 1.875rem;
+    margin-top: 0;
+    //border: 2px solid white;
+
+}
+
