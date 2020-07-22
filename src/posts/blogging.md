@@ -15,9 +15,7 @@ I rarely give myself time to reflect.  Albeit, the life of teacher seldom afford
 
 ## Some personal goals 
 
-
-
 #:one: I have always wanted to create my own website but I've never felt like I had the content or drive to do so.  Now, being a computer science teacher has made me reconsider this.  I watch the students be successful at school but also work on personal projects. Why can't I do the same thing!? Granted, I do have a 10-month old and a wife is due with our next any day now.  Those responsibilities obivously take priority.  Yet, there is still an opening of time each day that I get to fill with what I want.  Most days I fill it with browsing social media on my phone and I detest it.  I believe that I can make my freetime more worthwhile & fulfilling.  
 
-#:two: I want my students to see that I value learning alongside my teaching.  Learning does not end when you graduate college.  It's a skill that lasts your lifetime if you let it.  Teaching Computer Science is much more than 
+#:two: I want my students to see that I value learning alongside my teaching.  Learning does not end when you graduate college.  It's a skill that lasts your lifetime if you let it.  Students are very observant and they detect when you're not passionate about what you are teaching.  
 
