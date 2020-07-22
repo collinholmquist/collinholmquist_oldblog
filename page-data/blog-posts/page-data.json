@@ -1,0 +1,1 @@
+{"componentChunkName":"component---src-pages-blog-posts-js","path":"/blog-posts/","result":{"data":{"allMarkdownRemark":{"edges":[{"node":{"frontmatter":{"title":"Why Gatsby?","date":"2020-05-08"}}},{"node":{"frontmatter":{"title":"I need some introductions","date":"2020-05-09"}}},{"node":{"frontmatter":{"title":"Hello","date":"2020-05-10"}}}]}},"pageContext":{}}}
