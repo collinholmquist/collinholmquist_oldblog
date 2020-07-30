@@ -11,8 +11,9 @@ const Nav = () => {
                         display: `flex`, 
                         flexDirection: `column`,
                         listStyleType: `none`,
+                        
                         }}>
-                        <li style = {{ marginRight: `1.3rem`}}>
+                        <li>
                             <Link 
                                   style = {{textDecoration: 'none',
                                             color: `rgb(29, 27, 31)`}}
@@ -20,8 +21,7 @@ const Nav = () => {
                                 home
                             </Link>
                         </li>
-                        <li
-                        style = {{ marginRight: `1.3rem`}}>
+                        <li>
                             <Link 
                                   style = {{textDecoration: 'none',
                                   color: `rgb(29, 27, 31)`}}

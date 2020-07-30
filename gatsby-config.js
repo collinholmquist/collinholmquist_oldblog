@@ -7,7 +7,7 @@
 module.exports = {
 
   siteMetadata: {
-    title: 'dev.teach',
+    title: 'Collin Holmquist',
     author: 'collin holmquist',
     twitter: 'www.twitter.com/collinholmquist',
     github: 'www.github.com/collinholmquist',

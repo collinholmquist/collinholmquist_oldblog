@@ -1,7 +1,12 @@
 
 .main-container {
    
-    //background-color: lightgreen;
+    //background-color: #b5c1bf;
+    -webkit-box-shadow: 5px 5px 0px 5px black;  /* Safari 3-4, iOS 4.0.2 - 4.2, Android 2.3+ */
+    -moz-box-shadow:    5px 5px 0px 5px black;  /* Firefox 3.5 - 3.6 */
+    box-shadow:         5px 5px 0px 5px black;
+    border: 2px solid black;
+    border-radius: 10px;
     display: flex;
     flex-direction: column;
     
@@ -35,12 +40,19 @@
 
 .sidebar {
     
-    //background-color: lightpink;
+    //background-color:#b5c1bf;
+    -webkit-box-shadow: 5px 5px 0px 5px black;  /* Safari 3-4, iOS 4.0.2 - 4.2, Android 2.3+ */
+    -moz-box-shadow:    5px 5px 0px 5px black;  /* Firefox 3.5 - 3.6 */
+    box-shadow:         5px 5px 0px 5px black;
+    border: 2px solid black;
+    border-radius: 10px;
     max-width:  calc(33% - 1.25rem);
     float: left;
     margin-right: 1.875rem;
     margin-top: 0;
     //border: 2px solid white;
+   
+
 
 }
 

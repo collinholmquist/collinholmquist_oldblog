@@ -18,8 +18,8 @@ const Sidebar = ()=> {
                         className = {sidebarStyles.profilePic} 
                     />
                     <div style={{fontSize:'1rem'}}>
-                    collin holmquist &nbsp;
-                    cs@omaha central
+                    computer science &nbsp;
+                    @omaha central
                     </div>
                 </div>
             </div>

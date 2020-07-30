@@ -18,9 +18,9 @@ const Header = ()=> {
 
         <div>
             <header>
-                <h1>
+                <h2>
                     {data.site.siteMetadata.title}  
-                </h1>
+                </h2>
                 
             </header>
         </div>
