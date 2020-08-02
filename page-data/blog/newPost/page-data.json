@@ -1,0 +1,1 @@
+{"componentChunkName":"component---src-templates-blog-js","path":"/blog/newPost","result":{"data":{"markdownRemark":{"frontmatter":{"title":"Hello","date":"May 10th, 2020"},"html":"<p>Something</p>"}},"pageContext":{"slug":"newPost"}}}
